@@ -1,41 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Claude Google Contacts Connector</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #111;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      margin: 0;
+      color: #0b4dbb;
+    }
+
+    h2 {
+      color: #0b4dbb;
+    }
+
+    .box {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px;
+      margin: 18px 0;
+      background: #fafafa;
+    }
+
+    a {
+      color: #0b4dbb;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>Claude Google Contacts Connector</h1>
+  <!-- HEADER AVEC LOGO -->
+  <div class="header">
+    <img src="logo.png" alt="Claude Contacts Connector Logo" class="logo">
+    <h1>Claude Google Contacts Connector</h1>
+  </div>
 
-<p>
-This application allows users to securely connect their Google Contacts to Claude in order to automatically find and use contacts when composing emails.
-</p>
+  <!-- OBJECTIF CLAIR (CRITIQUE GOOGLE) -->
+  <p><strong>
+    This application allows users to securely connect their Google Contacts to Claude so they can quickly find and use contact information when composing emails.
+  </strong></p>
 
-<p>
-When a user asks Claude to find a contact, the application retrieves relevant contact details such as name, email address, or phone number directly from Google Contacts.
-</p>
+  <div class="box">
+    <h2>Purpose of the Application</h2>
+    <p>
+      The purpose of this application is to help users retrieve contact details from their own Google Contacts account while using Claude.
+    </p>
+  </div>
 
-<p>
-The application operates in read-only mode and does not modify, delete, or store any contact data.
-</p>
+  <div class="box">
+    <h2>How the Application Works</h2>
+    <p>
+      When a user asks Claude to find a contact, this application securely queries the user’s Google Contacts account and returns relevant details such as contact name, email address, or phone number.
+    </p>
+  </div>
 
-<p>
-This integration improves productivity by eliminating manual contact lookup and reducing errors when drafting emails.
-</p>
+  <div class="box">
+    <h2>Google User Data Accessed</h2>
+    <p>
+      This application accesses Google Contacts data, including names, email addresses, and phone numbers.
+    </p>
+  </div>
 
-<h2>About</h2>
-<p>
-This application is developed and operated by Evirum Inc.
-</p>
+  <div class="box">
+    <h2>How Google User Data Is Used</h2>
+    <p>
+      Data is used only to fulfill user-initiated requests, such as finding a contact when composing an email.
+    </p>
+  </div>
 
-<h2>Contact</h2>
-<p>
-For any questions, please contact: admin@evirum.com
-</p>
+  <div class="box">
+    <h2>Important Limitations</h2>
+    <p>
+      This application operates in read-only mode. It does not create, modify, or delete contacts.
+    </p>
+    <p>
+      No data is shared with third parties and no contact data is stored permanently.
+    </p>
+  </div>
 
-<p>
-<a href="privacy.html">Privacy Policy</a>
-</p>
+  <div class="box">
+    <h2>Who Operates This Application</h2>
+    <p>
+      This application is developed and operated by Evirum Inc.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Contact</h2>
+    <p>
+      admin@evirum.com
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Privacy Policy</h2>
+    <p>
+      <a href="privacy.html">View Privacy Policy</a>
+    </p>
+  </div>
 
 </body>
 </html>
